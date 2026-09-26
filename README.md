@@ -92,7 +92,7 @@ The Pharmacist handles day-to-day workflow and transactional activities.
    4. Run the Application:
    Open your browser and navigate to:
    
-   http://localhost/pharmaCodex
+   http://localhost/PharmCodex
    
    5. Default credentilas
       Username : admin
