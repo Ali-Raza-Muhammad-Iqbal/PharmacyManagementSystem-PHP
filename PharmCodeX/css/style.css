@@ -1,0 +1,72 @@
+/* =====================
+   GLOBAL / MUTUAL STYLES
+   ===================== */
+
+:root {
+    --primary-color: #0d6efd;   /* default */
+    --sidebar-bg: #212529;
+    --text-muted: #adb5bd;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: var(--sidebar-bg);
+}
+
+.sidebar a {
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.topbar {
+    height: 60px;
+    background: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.content {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+.sidebar a.active {
+    background: #0d6efd;
+    color: #fff;
+    font-weight: 600;
+    border-left: 4px solid #fff;
+}
+/* =====================
+   ADMIN-SPECIFIC STYLES
+   ===================== */
