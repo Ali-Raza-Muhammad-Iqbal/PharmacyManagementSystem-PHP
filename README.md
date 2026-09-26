@@ -1,4 +1,4 @@
-## Pharmacy Management System
+## Pharmacy Management System (PharmCodex)
 A robust Pharmacy Management Application built using native PHP, MySQL, and styled with Bootstrap 5. This system is designed to streamline inventory control, automate sales processing, and secure user access through strict role-based permissions. It helps pharmacies reduce manual errors, track stock levels in real time, and maintain optimal operational efficiency.
 ------------------------------
 ## 🚀 Core Features & Architecture
@@ -20,6 +20,8 @@ The application is structured around a secure, role-based architecture featuring
 │ Full User │    │ Audit &   │    │ System    │   │ Stock &   │    │ POS/Sales │    │ Customer  │
 │ Mgmt      │    │ Analytics │    │ Overrides │   │ Inventory │    │ Billing   │    │ Directory │
 └───────────┘    └───────────┘    └───────────┘   └───────────┘    └───────────┘    └───────────┘
+
+-----------------------------------------
 
 ## 👤 Role-Based Access Control (RBAC)## 1. Admin Module (Sudo Access)
 The Admin acts as the ultimate authority with unrestricted system override capabilities.
